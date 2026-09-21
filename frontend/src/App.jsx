@@ -21,7 +21,6 @@ const App = () => {
       try {
         const response = await axios.get(
           "http://localhost:4000/api/v1/user/patient/me",
-          // "http://192.168.x.x:4000/user/patient/me",
           {
             withCredentials: true,
           }
